@@ -1,0 +1,9 @@
+{
+  "name": "Solfege",
+  "version": "1.0.0",
+  "description": "Practice music reading",
+  "main": "index.html",
+  "repository": "git@github.com:isabeau-bergeron/solfege.git",
+  "author": "Isabeau Bergeron <isabeau.bergeron@zaboweb.com>",
+  "license": "MIT"
+}
