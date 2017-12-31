@@ -1,0 +1,74 @@
+.portee {
+	margin-top: 2em;
+	margin-left: 1em; 
+	position: absolute;
+}
+
+.quarter-note::before {
+  content: '\2669';
+  font-size: 6em;
+  position: absolute;
+  left: 2em;
+}
+
+.f-key::before {
+  content: '\1d122';
+  position: absolute;
+  font-size: 125px;
+  left: 10px;
+  top: -5px;
+}
+
+.d::before {
+  top: 29px;
+}
+
+.e::before {
+	top: 18px;
+}
+
+.f::before {
+	top: 6px;
+}
+
+.g::before {
+  top: -5px;
+}
+
+.a::before {
+	top: -16px;
+}
+
+.b::before {
+  top: -27px;
+}
+
+.c::before {
+  top: 22px;
+  transform: rotate(180deg);
+  left: 179px;
+}
+
+.d1::before {
+  top: 11px;
+  transform: rotate(180deg);
+  left: 179px;
+}
+
+.e1::before {
+  top: -1px;
+  transform: rotate(180deg);
+  left: 179px;
+}
+
+.f1::before {
+  top: -11px;
+  transform: rotate(180deg);
+  left: 179px;
+}
+
+.g1::before {
+  top: -24px;
+  transform: rotate(180deg);
+  left: 179px;
+}

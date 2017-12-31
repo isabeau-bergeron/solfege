@@ -1,9 +1,21 @@
 {
   "name": "Solfege",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Practice music reading",
   "main": "index.html",
   "repository": "git@github.com:isabeau-bergeron/solfege.git",
   "author": "Isabeau Bergeron <isabeau.bergeron@zaboweb.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "uglifyjs-webpack-plugin": "^1.1.5"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "open index.html"
+  }
 }
